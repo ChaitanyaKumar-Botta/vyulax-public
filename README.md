@@ -144,7 +144,7 @@ If you're a **trader, investor, fintech builder, or potential partner**, I'm ope
 - 📈 **Scaling discussions** — Taking this to the next level together
 - 💼 **Acquisition conversations** — If you're serious, let's talk
 
-> **Reach out directly via [LinkedIn](https://linkedin.com) or raise a GitHub Discussion here.**
+> **Reach out directly via [LinkedIn](https://linkedin.com/in/chaitanya-kumar-botta-297696163) or raise a GitHub Discussion here.**
 
 I'm not looking for noise — I'm looking for the right conversations.
 
