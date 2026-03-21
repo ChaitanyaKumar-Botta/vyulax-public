@@ -33,11 +33,7 @@ export function Sidebar() {
             )}
         >
             <div className="p-6 flex items-center justify-between">
-                {!isCollapsed && (
-                    <Link href="/" className="flex items-center">
-                        <img src="/logo.png" alt="Vyulax Logo" className="h-[43px] w-auto object-contain" />
-                    </Link>
-                )}
+                {/* Logo removed from here to be placed in the Header for persistent visibility */}
                 <button
                     onClick={() => setIsCollapsed(!isCollapsed)}
                     className="p-2 hover:bg-secondary rounded-full transition-colors"

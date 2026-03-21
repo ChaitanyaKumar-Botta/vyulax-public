@@ -16,7 +16,7 @@ export function Header() {
         <header className="h-16 border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 px-6 flex items-center justify-between sticky top-0 z-50">
             <div className="flex items-center gap-8 flex-1">
                 <Link href="/" className="hover:opacity-80 transition-opacity flex items-center">
-                    <img src="/logo.png" alt="Vyulax Logo" className="h-[43px] w-auto object-contain" />
+                    <img src="/logo.png" alt="Vyulax Logo" className="h-[43px] w-auto object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.1)]" />
                 </Link>
 
                 <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
