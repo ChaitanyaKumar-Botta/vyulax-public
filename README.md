@@ -82,20 +82,6 @@ Market Data → Momentum Scanner → AI Analysis → Scoring Engine
 
 ---
 
-## 📸 Platform Screenshots
-
-> *(Live demo link below — screenshots are illustrative)*
-
-**📊 Dashboard — AI Trade Recommendations**
-![Dashboard View](public/logo.png)
-
-**🔍 Stock Screener & Momentum Scanner**
-> Real-time scan results with RSI, MACD, Volume anomaly scoring
-
-**🛡️ System Health Panel**
-> Win Rate · Anomaly Rate · Drawdown Exposure · AI Accuracy Gauge
-
----
 
 ## 🚀 Try It Live
 
