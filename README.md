@@ -158,6 +158,9 @@ If you're a **trader, investor, fintech builder, or potential partner**, I'm ope
 
 > **Reach out directly via [LinkedIn](https://linkedin.com/in/chaitanya-kumar-botta-297696163) or raise a GitHub Discussion here.**
 
+🌐 **Live Platform:** [vyulax.vercel.app](https://vyulax.vercel.app)
+💻 **Public Showcase Repo:** [github.com/ChaitanyaKumar-Botta/vyulax-public](https://github.com/ChaitanyaKumar-Botta/vyulax-public)
+
 I'm not looking for noise — I'm looking for the right conversations.
 
 ---
