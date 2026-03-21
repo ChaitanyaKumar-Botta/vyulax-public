@@ -1,95 +1,177 @@
 <div align="center">
-  <img src="public/logo.png" alt="Vyulax Logo" height="100" />
-  <h1>🚀 Vyulax AI: Autonomous Quantitative Trading Engine</h1>
-  <p>An enterprise-grade, self-correcting algorithmic trading assistant optimized for the National Stock Exchange (NSE) and Bombay Stock Exchange (BSE).</p>
-  <p><em>Derived from the Sanskrit <strong>"Vyuh"</strong> (Strategic Matrix/Formation) and <strong>"Laksh"</strong> (Goal/Target) — engineered to hunt and execute high-probability algorithmic targets.</em></p>
-  
-  <br />
-  
-  [![Website](https://img.shields.io/badge/Website-Vyulax.vercel.app-blue?style=for-the-badge&logo=vercel)](https://vyulax.vercel.app)
-  [![Status](https://img.shields.io/badge/Status-Secured_Beta-success?style=for-the-badge)](#)
+  <img src="public/logo.png" alt="Vyulax Logo" height="110" />
+
+  <h1>Vyulax AI</h1>
+  <p><strong>Autonomous Quantitative Trading Engine for NSE & BSE</strong></p>
+  <p><em>From the Sanskrit — <strong>"Vyuh"</strong> (Strategic Formation) + <strong>"Laksh"</strong> (Target). Built to identify. Built to execute.</em></p>
+
+  <br/>
+
+  [![Live Platform](https://img.shields.io/badge/🚀_Live_Platform-vyulax.vercel.app-blue?style=for-the-badge)](https://vyulax.vercel.app)
+  [![Status](https://img.shields.io/badge/Status-Closed_Beta-orange?style=for-the-badge)](#)
   [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](#)
+  [![Exchange](https://img.shields.io/badge/Exchange-NSE_%7C_BSE-purple?style=for-the-badge)](#)
 </div>
 
 ---
 
-## 📖 The Problem vs. The Vyulax Solution
+## 🎯 What You Get
 
-Retail traders consistently lose capital because they rely on delayed, emotionally biased human-analysis using lagging retail charting tools. Hedge funds win consistently because they deploy **Multi-Factor Quantitative Models**, automated execution, and zero emotion.
+Stop sifting through hundreds of stocks manually. Vyulax does it for you.
 
-**Vyulax AI levels the playing field.** 
-It is a sophisticated SaaS platform that fuses rigid quantitative mathematics (RSI, MACD, Volume Price Analysis) with a **Multi-LLM Waterfall Architecture** to actively isolate, validate, and simulate high-probability `Buy` setups in real-time.
+Every time you open the platform, the AI engine automatically:
 
----
+- 🔍 **Scans the market** in real-time across NSE & BSE for high-momentum setups
+- 🧠 **Generates AI-selected trade ideas** ranked by a multi-factor confidence score
+- 📐 **Calculates your exact position size** based on your capital and risk tolerance
+- 🛡️ **Enforces stop-loss & target levels** mathematically — no guessing, no emotion
+- 📊 **Tracks live performance** with a dedicated AI health and system monitoring panel
 
-## 💎 Enterprise Value Proposition
-
-### 1. Multi-LLM Waterfall AI Engine
-Vyulax does not rely on a single point of failure. It utilizes a graceful failover matrix across **Groq (Llama-3)**, **OpenRouter**, and **Google Gemini** to ensure absolute uptime, processing complex global macroeconomic context alongside strict mathematical charting.
-
-### 2. Autonomous Self-Correction Architecture
-The platform features a proprietary machine-learning pipeline that autonomously tracks strategy performance against real execution outcomes. When predictions drift, Vyulax mathematically auto-adjusts its confidence thresholds, structurally learning from every single trade.
-
-### 3. Institutional Risk Engine
-Risk management is not an afterthought; it is the core constraint. Vyulax natively computes dynamic Slippage, maximum Drawdown limits, and algorithmic Position Sizing to mathematically prevent portfolio ruin. 
-
-### 4. Zero-Trust Paper Trading Simulation
-Before touching live capital, users test strategies against the live market using the internal Simulation Engine. The engine actively calculates real-world brokerage costs, taxes, and latency, providing a 1:1 mathematical reflection of live market PnL.
+You get a complete, structured trading plan. Not just a signal. A plan.
 
 ---
 
-## 🧭 System Architecture & Data Flow
+## 💡 Why Vyulax?
 
-The Vyulax backend operates across an autonomous, visually synchronized pipeline:
+> Most retail traders don't lose because of bad ideas. They lose because of poor execution, emotional decisions, and zero risk management.
 
-```mermaid
-graph LR
-    A[Momentum Scanner] --> B[Technical AI Analysis]
-    B --> C[Scoring & Validation Engine]
-    C --> D[Quantitative Risk Engine]
-    D --> E[Simulated Execution]
-    E --> F[Market Validation]
-    F --> G[Learning Matrix]
-    G --> H[Self-Correction Loop]
-    H -.->|Adjusts Weights| C
+The statistics are brutal: **~85 to 90% of retail traders lose money**. Not because they can't pick stocks — but because:
+
+- They buy at highs, driven by FOMO
+- They hold losers too long, hoping for recovery
+- They have no consistent framework for sizing or risk control
+
+**Vyulax exists to solve this.**
+
+It applies the same disciplined, systematic approach that institutional fund managers use — Multi-Factor technical scoring, AI validation, and strict risk limits — and makes it accessible to any trader with a browser.
+
+No emotion. No guessing. Just math.
+
+---
+
+## ✨ Key Features
+
+| Feature | Description |
+|---|---|
+| **Multi-LLM Waterfall** | Groq → OpenRouter → Gemini failover for guaranteed AI uptime |
+| **Momentum Scanner** | Real-time sweep of NSE/BSE for explosive momentum setups |
+| **Scoring Engine** | Multi-factor ranking using RSI, MACD, Volume, & AI confidence |
+| **Risk Calculator** | Auto-computes position size, max drawdown, and portfolio exposure |
+| **Self-Correcting Brain** | Learns from its own outcomes and autonomously recalibrates strategy weights |
+| **Paper Trade Simulator** | Test ideas against live markets with zero real capital at risk |
+| **System Health Dashboard** | Live telemetry tracking AI accuracy, win rates, and anomaly flags |
+| **Bank-Grade Security** | Zero-trust middleware, bcrypt passwords, Row-Level Security in PostgreSQL |
+
+---
+
+## 🧭 How It Works
+
+```
+Market Data → Momentum Scanner → AI Analysis → Scoring Engine
+                                                      ↓
+                              Self-Correction ← Risk Engine → Execution
+                                                      ↓
+                                              Performance Tracker
 ```
 
----
-
-## 🛡️ Bank-Grade Security & Authorization
-
-To protect user trading journals and isolated prediction models, Vyulax AI deploys strict zero-trust SaaS security primitives:
-
-* **Edge Middleware Routing:** Strict Next.js interceptors guarantee unauthenticated requests are physically blocked before server execution.
-* **Cryptographic Hashing:** User credentials are synchronously hashed via high-work-factor `bcryptjs`.
-* **Row-Level Security (RLS):** Hosted on PostgreSQL, every individual trade and system metric is immutably stamped to a specific `owner_id`. Cross-tenant data leaks are mathematically impossible.
-* **Proxy Abstraction:** System API secrets are entirely sandboxed on Serverless Edge functions.
+1. The **Scanner** sweeps NSE/BSE for stocks showing unusual momentum
+2. The **AI Layer** (triple-LLM waterfall) validates each candidate using macro + technical context
+3. The **Scoring Engine** ranks them by confidence — only high-probability setups pass
+4. The **Risk Engine** calculates exact entry, stop-loss, and position size
+5. The **Learning System** tracks real outcomes and autonomously adjusts future thresholds
 
 ---
 
-## 🎯 Primary Use Cases
+## 📸 Platform Screenshots
 
-### 🏢 For Institutional Quants
-Utilize the **Admin Telemetry Dashboard** to visually track AI effectiveness over rolling 30-day windows. Review clustered anomalies, audit the system's hit rate, and adjust confidence parameters securely without touching code.
+> *(Live demo link below — screenshots are illustrative)*
 
-### 📈 For Swing Traders
-Select your Risk Profile (`Safe`, `Balanced`, `Aggressive`). Click **Generate AI Plan**, and let the engine isolate the top 6 explosive momentum gainers from a massive market sweep, enforcing a strict Technical Verification Score before recommending an entry.
+**📊 Dashboard — AI Trade Recommendations**
+![Dashboard View](public/logo.png)
 
-### 🎓 For Algorithmic Researchers
-Bridge the internal strategy outputs to paper trading and export the `JSON` insights to perfectly test completely automated edge-case theories safely.
+**🔍 Stock Screener & Momentum Scanner**
+> Real-time scan results with RSI, MACD, Volume anomaly scoring
 
----
-
-## 🚀 Product Roadmap
-
-As Vyulax transitions from Closed Beta to Enterprise General Availability, the pipeline includes:
-
-1. **🔌 Multi-Broker Webhook Integration:** Secure OAuth bridging for Zerodha Kite, Upstox, and Groww APIs for direct auto-execution.
-2. **📱 Vyulax Mobile App:** A dedicated React Native bridge pushing real-time, low-latency target notifications to iOS/Android.
-3. **⏳ Advanced Backtesting Engine:** Upload historical tick-data to replay and stress-test the AI's analytical accuracy over decades of past market crashes.
-4. **💼 Multi-Portfolio Management:** Concurrent trading journals allowing segregated tracking for Intraday vs Swing strategies simultaneously.
+**🛡️ System Health Panel**
+> Win Rate · Anomaly Rate · Drawdown Exposure · AI Accuracy Gauge
 
 ---
 
-### **Disclaimer**
-*Vyulax AI provides simulated trading architectures and delivers machine-generated educational mathematical analysis. All projections carry systematic market risk. Users assume complete financial responsibility for any real-world capital deployed based on these analytics.*
+## 🚀 Try It Live
+
+The full platform is live and running on production infrastructure.
+
+<div align="center">
+
+### 👉 [vyulax.vercel.app](https://vyulax.vercel.app)
+
+*Create a free account. The AI engine runs immediately — no setup required.*
+
+</div>
+
+---
+
+## 🏗️ Technology Stack
+
+Built with modern, scalable, production-grade infrastructure:
+
+- **Frontend:** Next.js 14, React 18, Tailwind CSS, Shadcn UI
+- **Backend:** Next.js Serverless Edge Functions, Prisma ORM
+- **AI:** Groq (Llama-3), OpenRouter, Google Gemini — Multi-LLM Waterfall
+- **Database:** Supabase PostgreSQL with Row-Level Security
+- **Auth:** NextAuth.js with bcrypt credential hashing
+- **Deployment:** Vercel Edge Network
+
+---
+
+## 🛡️ Security First
+
+Every user's data is completely isolated and protected:
+
+- **Zero-Trust Middleware** — Unauthenticated requests are blocked before reaching any route
+- **Cryptographic Password Hashing** — bcryptjs with high work-factor
+- **Row-Level Security** — PostgreSQL RLS ensures cross-user data leaks are impossible
+- **Server-Side API Isolation** — All AI keys abstracted behind serverless proxies, never exposed client-side
+
+---
+
+## 🛣️ Roadmap
+
+What's coming next as Vyulax scales:
+
+- [ ] 🔌 **Zerodha / Upstox / Groww Webhook Integration** — Direct broker auto-execution
+- [ ] 📱 **Mobile App (React Native)** — Real-time push alerts on iOS and Android
+- [ ] ⏳ **Advanced Backtesting** — Replay AI performance against historical tick data
+- [ ] 💼 **Multi-Portfolio Management** — Separate journals for intraday vs. swing
+- [ ] 🌐 **API Access Tier** — Expose AI signals via a structured developer API
+
+---
+
+## 🤝 Collaboration & Opportunities
+
+Vyulax is a proprietary, production-grade platform currently in closed beta.
+
+If you're a **trader, investor, fintech builder, or potential partner**, I'm open to conversations around:
+
+- 💬 **Feedback** — Insights from active traders always welcome
+- 🤝 **Partnerships** — Broker integrations, data partnerships, co-development
+- 📈 **Scaling discussions** — Taking this to the next level together
+- 💼 **Acquisition conversations** — If you're serious, let's talk
+
+> **Reach out directly via [LinkedIn](https://linkedin.com) or raise a GitHub Discussion here.**
+
+I'm not looking for noise — I'm looking for the right conversations.
+
+---
+
+<div align="center">
+
+**Built with discipline. Engineered for precision. Designed to win.**
+
+[![Live Platform](https://img.shields.io/badge/🚀_Open_Vyulax-vyulax.vercel.app-blue?style=for-the-badge)](https://vyulax.vercel.app)
+
+</div>
+
+---
+
+> **Disclaimer:** Vyulax AI delivers algorithmic analysis and paper trading simulations for educational purposes. All projections carry inherent market risk. Users are solely responsible for any real-world capital decisions.
