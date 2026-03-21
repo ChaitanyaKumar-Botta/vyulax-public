@@ -7,9 +7,9 @@
 
   <br/>
 
-  [![Live Platform](https://img.shields.io/badge/🚀_Live_Platform-vyulax.vercel.app-blue?style=for-the-badge)](https://vyulax.vercel.app)
+  [![Website](https://img.shields.io/badge/Website-Vyulax.vercel.app-blue?style=for-the-badge&logo=vercel)](https://vyulax.vercel.app)
   [![Status](https://img.shields.io/badge/Status-Closed_Beta-orange?style=for-the-badge)](#)
-  [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](#)
+  [![Rights](https://img.shields.io/badge/Rights-All_Rights_Reserved-red?style=for-the-badge)](#)
   [![Exchange](https://img.shields.io/badge/Exchange-NSE_%7C_BSE-purple?style=for-the-badge)](#)
 </div>
 
