@@ -2,7 +2,7 @@
   <img src="public/logo.png" alt="Vyulax Logo" height="110" />
 
   <h1>Vyulax AI</h1>
-  <p><strong>Autonomous Quantitative Trading Engine for NSE & BSE</strong></p>
+  <p><strong>Decades of Quantitative Analysis. Powered by AI. Built for NSE & BSE.</strong></p>
   <p><em>From the Sanskrit — <strong>"Vyuh"</strong> (Strategic Formation) + <strong>"Laksh"</strong> (Target). Built to identify. Built to execute.</em></p>
 
   <br/>
@@ -43,7 +43,12 @@ The statistics are brutal: **~85 to 90% of retail traders lose money**. Not beca
 
 **Vyulax exists to solve this.**
 
-It applies the same disciplined, systematic approach that institutional fund managers use — Multi-Factor technical scoring, AI validation, and strict risk limits — and makes it accessible to any trader with a browser.
+It combines two powerful engines:
+
+1. **Decades of Quantitative Analysis** — Technical indicators (RSI, MACD, Volume patterns, momentum oscillators) built on decades of market price behaviour. No trend is evaluated without mathematical confirmation from historical market data.
+2. **AI Validation Layer** — A triple-LLM waterfall (Groq, OpenRouter, Gemini) cross-references the technical signals against live global macroeconomic context before any setup is recommended.
+
+Neither engine works alone. Together, they form the core of every trade decision Vyulax makes.
 
 No emotion. No guessing. Just math.
 
@@ -53,9 +58,10 @@ No emotion. No guessing. Just math.
 
 | Feature | Description |
 |---|---|
-| **Multi-LLM Waterfall** | Groq → OpenRouter → Gemini failover for guaranteed AI uptime |
+| **Quantitative Analysis Engine** | Technical scoring using RSI, MACD, Volume, and momentum patterns built on decades of market data |
+| **Multi-LLM Waterfall AI** | Groq → OpenRouter → Gemini failover for guaranteed AI uptime |
 | **Momentum Scanner** | Real-time sweep of NSE/BSE for explosive momentum setups |
-| **Scoring Engine** | Multi-factor ranking using RSI, MACD, Volume, & AI confidence |
+| **Dual Scoring Engine** | Quant math score + AI confidence score — both must pass before a setup is recommended |
 | **Risk Calculator** | Auto-computes position size, max drawdown, and portfolio exposure |
 | **Self-Correcting Brain** | Learns from its own outcomes and autonomously recalibrates strategy weights |
 | **Paper Trade Simulator** | Test ideas against live markets with zero real capital at risk |
@@ -67,18 +73,24 @@ No emotion. No guessing. Just math.
 ## 🧭 How It Works
 
 ```
-Market Data → Momentum Scanner → AI Analysis → Scoring Engine
-                                                      ↓
-                              Self-Correction ← Risk Engine → Execution
-                                                      ↓
-                                              Performance Tracker
+Market Data → Momentum Scanner → Quant Analysis (RSI/MACD/Decades of Data)
+                                              ↓
+                                    AI Validation Layer
+                                  (Groq / OpenRouter / Gemini)
+                                              ↓
+                              Dual Scoring Engine (Math + AI must both pass)
+                                              ↓
+                    Self-Correction ← Risk Engine → Execution
+                                              ↓
+                                      Performance Tracker
 ```
 
 1. The **Scanner** sweeps NSE/BSE for stocks showing unusual momentum
-2. The **AI Layer** (triple-LLM waterfall) validates each candidate using macro + technical context
-3. The **Scoring Engine** ranks them by confidence — only high-probability setups pass
-4. The **Risk Engine** calculates exact entry, stop-loss, and position size
-5. The **Learning System** tracks real outcomes and autonomously adjusts future thresholds
+2. The **Quant Engine** scores each candidate using RSI, MACD, Volume and decades of historical price behaviour
+3. The **AI Layer** (triple-LLM waterfall) cross-validates against live global macro context
+4. The **Dual Scoring Engine** ranks setups — both the mathematical score AND the AI confidence must independently pass
+5. The **Risk Engine** calculates exact entry, stop-loss, and position size
+6. The **Learning System** tracks real outcomes and autonomously adjusts future thresholds
 
 ---
 
