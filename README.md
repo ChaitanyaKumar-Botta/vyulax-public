@@ -52,7 +52,7 @@ This is real. From the live Performance Journal — actual closed trades, tracke
 
 | Metric | Value |
 |---|---|
-| **Win Rate** | 77.8% (21W / 6L) |
+| **Win Rate** | 77.8% — 21 Wins / 6 Losses |
 | **Net Realized P&L** | **+₹3,459.16** |
 | **Gross Win** | ₹4,398.79 |
 | **Gross Loss** | ₹939.63 |
